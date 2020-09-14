@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CreativeModelStoreContainer" CdmEntityContainer="CreativeEntities">
+    <EntitySetMapping Name="Discounts">
+      <EntityTypeMapping TypeName="CreativeModel.Discount">
+        <MappingFragment StoreEntitySet="Discount">
+          <ScalarProperty Name="DiscountId" ColumnName="DiscountId" />
+          <ScalarProperty Name="OfferName" ColumnName="OfferName" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="ApplicableFrom" ColumnName="ApplicableFrom" />
+          <ScalarProperty Name="ApplicableTo" ColumnName="ApplicableTo" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="CreativeModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="Rate" ColumnName="Rate" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,16 @@
+C:\Users\APEKSHA\source\repos\APP\Creative.API\Creative.Manager\obj\Debug\Creative.Manager.csproj.CoreCompileInputs.cache
+C:\Users\APEKSHA\source\repos\APP\Creative.API\Creative.Manager\obj\Debug\Creative.Manager.csprojAssemblyReference.cache
+C:\Users\APEKSHA\source\repos\APP\Creative.API\Creative.Manager\bin\Debug\Creative.Manager.dll.config
+C:\Users\APEKSHA\source\repos\APP\Creative.API\Creative.Manager\bin\Debug\Creative.Manager.dll
+C:\Users\APEKSHA\source\repos\APP\Creative.API\Creative.Manager\bin\Debug\Creative.Manager.pdb
+C:\Users\APEKSHA\source\repos\APP\Creative.API\Creative.Manager\bin\Debug\Creative.Model.dll
+C:\Users\APEKSHA\source\repos\APP\Creative.API\Creative.Manager\bin\Debug\Creative.Repository.dll
+C:\Users\APEKSHA\source\repos\APP\Creative.API\Creative.Manager\bin\Debug\EntityFramework.dll
+C:\Users\APEKSHA\source\repos\APP\Creative.API\Creative.Manager\bin\Debug\Creative.Model.pdb
+C:\Users\APEKSHA\source\repos\APP\Creative.API\Creative.Manager\bin\Debug\Creative.Model.dll.config
+C:\Users\APEKSHA\source\repos\APP\Creative.API\Creative.Manager\bin\Debug\Creative.Repository.pdb
+C:\Users\APEKSHA\source\repos\APP\Creative.API\Creative.Manager\bin\Debug\Creative.Repository.dll.config
+C:\Users\APEKSHA\source\repos\APP\Creative.API\Creative.Manager\bin\Debug\EntityFramework.xml
+C:\Users\APEKSHA\source\repos\APP\Creative.API\Creative.Manager\obj\Debug\Creative.Manager.csproj.CopyComplete
+C:\Users\APEKSHA\source\repos\APP\Creative.API\Creative.Manager\obj\Debug\Creative.Manager.dll
+C:\Users\APEKSHA\source\repos\APP\Creative.API\Creative.Manager\obj\Debug\Creative.Manager.pdb

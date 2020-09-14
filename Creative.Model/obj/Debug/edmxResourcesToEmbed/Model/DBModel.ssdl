@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CreativeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Discount">
+    <Key>
+      <PropertyRef Name="DiscountId" />
+    </Key>
+    <Property Name="DiscountId" Type="int" Nullable="false" />
+    <Property Name="OfferName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Category" Type="int" Nullable="false" />
+    <Property Name="ApplicableFrom" Type="datetime" Nullable="false" />
+    <Property Name="ApplicableTo" Type="datetime" Nullable="false" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ProductId" />
+    </Key>
+    <Property Name="ProductId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Category" Type="int" Nullable="false" />
+    <Property Name="ProductName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Rate" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Discount_Discount">
+    <End Role="Discount" Type="Self.Discount" Multiplicity="1" />
+    <End Role="Discount1" Type="Self.Discount" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Discount">
+        <PropertyRef Name="DiscountId" />
+      </Principal>
+      <Dependent Role="Discount1">
+        <PropertyRef Name="DiscountId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CreativeModelStoreContainer">
+    <EntitySet Name="Discount" EntityType="Self.Discount" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Product" EntityType="Self.Product" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Discount_Discount" Association="Self.FK_Discount_Discount">
+      <End Role="Discount" EntitySet="Discount" />
+      <End Role="Discount1" EntitySet="Discount" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
